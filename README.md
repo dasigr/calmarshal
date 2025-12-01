@@ -2,6 +2,13 @@
 
 This project is from this [YouTube video](https://www.youtube.com/watch?v=3CMgznBdl-M) by [Jan Marshal](https://www.youtube.com/@janmarshalcoding).
 
+Packages Used:
+
+NextAuth \
+Nylas \
+Postgres Database with Prisma ORM \
+Tailwind CSS and Shadcn UI
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
