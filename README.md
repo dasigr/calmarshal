@@ -2,12 +2,35 @@
 
 This project is from this [YouTube video](https://www.youtube.com/watch?v=3CMgznBdl-M) by [Jan Marshal](https://www.youtube.com/@janmarshalcoding).
 
+Next.js v14.2.33 \
+Node v18.17.1
+
 Packages Used:
 
 NextAuth \
 Nylas \
 Postgres Database with Prisma ORM \
 Tailwind CSS and Shadcn UI
+
+## Workflow
+
+1. Create Next.js project
+2. Create a Dashboard layout
+3. Onboarding Route
+  a. Authenticate user using Authjs + Nylas to connect with our Calendar
+  b. Nylas creates the connection to our calendar, and we get a grand ID and email in return to authenticate all API requests
+4. Create settings route
+  a. Change profile image and change name
+5. Create Availability route
+6. Create Events route
+  a. Create/Update/Delete
+7. Create Booking form
+  a. Unique URL with username
+  b. Get data from our Availability page and get data from Nylas to display the correct date and available timeframes
+  c. Use the Nylas API to book the event in the Calendar (in our calendar + calendar of the attendee)
+8. Create the meetings route
+  a. See when, with whom and the meeting call provider
+9. Create a Landing page
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
